@@ -1,0 +1,51 @@
+
+      #hero,
+      #heroMobile {
+        overflow: initial !important;
+      }
+
+      #heroImage {
+        position: relative;
+        bottom: -60px;
+        z-index: 99999;
+      }
+
+      #heroImage-Mobile {
+        position: relative;
+        bottom: -20px;
+        z-index: 99999;
+      }
+
+      .flexBoxVertical .wpb_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .blog-shortcode .post-entry-content {
+        /*display: flex;*/
+        /*flex-direction: column-reverse;*/
+      }
+
+      h3.entry-title {
+        font-family: Assistant !important;
+      }
+
+      .hpVidPlayer {
+        margin-bottom: 25px;
+      }
+
+      .hpVidTitle {
+        font-family: Changa One;
+        font-size: 15px;
+        line-height: 20px;
+        color: #eaeaea;
+        text-align: center;
+      }
+
+      .credSlider .owl-stage {
+        display: flex;
+        align-items: center;
+      }
+    

@@ -1,0 +1,369 @@
+/*
+Theme Name: the7dtchild
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: The7 is perfectly scalable, performance and SEO optimized, responsive, retina ready multipurpose WordPress theme. It will fit every site – big or small. From huge corporate portals to studio or personal sites – The7 will become a great foundation for your next project!
+Version: 1.0.0
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+Template: dt-the7
+*/
+
+
+
+
+/* Theme customization starts here
+
+-------------------------------------------------------------- */
+
+
+
+
+/* - Global Adjustments - */
+
+/* -- Misc -- */
+
+.white p,
+.white h1,
+.white h2,
+.white h3,
+.white h4,
+.white h5,
+.white h6,
+.white li {
+	color: #ffffff;
+}
+
+.grecaptcha-badge {
+    visibility: hidden !important;
+}
+
+a#scroll-to-top {
+    display: none !important;
+}
+
+input[type=radio],
+input[type=checkbox] {
+	margin-top: 0 !important;
+}
+
+.mdaBanner h2,
+h2.mdaBanner {
+    font-size: 22px;
+    line-height: 32px;
+    background-color: #ed2057;
+    display: inline;
+    color: #ffffff;
+    padding: 4px 10px;
+	letter-spacing: 1px;
+}
+
+/* --- Post Type Thumbnail Images --- */
+
+.single .podcasts .post-thumbnail,
+.single .webinar .post-thumbnail,
+.single .training .post-thumbnail {
+    position: relative;
+    margin-bottom: 45px;
+    line-height: 0;
+}
+
+.single .podcasts .post-thumbnail img,
+.single .webinar .post-thumbnail img,
+.single .training .post-thumbnail img,
+.podcast-mini .podcast-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+/* --- Instagram Feed --- */
+
+#mdaInstagram {
+    color: purple;
+    margin-left: 10px;
+	cursor: pointer;
+	padding: 3px 6px;
+	border-radius: 5px;
+	font-weight: 300;
+}
+
+#mdaInstagram:hover {
+	cursor: pointer;
+	background-color: purple;
+	color: #ffffff;
+}
+
+/* --- Podcast Transcripts --- */
+
+.transcript p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+/* -- Header -- */
+
+/* --- Top Bar --- */
+
+/* --- Main Header --- */
+
+/* --- Primary Nav --- */
+
+
+
+/* -- Sidebars -- */
+
+
+/* -- Footer -- */
+
+#footer {
+	background-size: cover !important;
+}
+
+section#custom_html-3,
+section#presscore-custom-menu-one-2,
+section#custom_html-4 {
+    padding-left: 35px;
+}
+
+div#gform_wrapper_14 {
+    margin-top: 0 !important;
+}
+
+li#field_14_1,
+li#field_14_1 > div,
+li#field_14_1 > div input#input_14_1 {
+    margin-top: 0 !important;
+}
+
+/* --- Logo Column --- */
+
+.footer-column.footer-column-1 a img {
+    margin-bottom: 25px !important;
+}
+
+/* --- Contact Info --- */
+
+p.footer-phone {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+/*
+p.footer-phone-2 {
+    font-size: 12px;
+    line-height: 16px;
+	margin-bottom: 30px;
+	color: #35b2f4;
+}
+*/
+
+p.footer-address {
+    line-height: 24px;
+	margin-bottom: 20px;
+}
+
+
+/* -- Buttons -- */
+
+
+/* -- Forms -- */
+
+ul.gform_fields li,
+ul.gform_fields li input {
+    margin-top: 0 !important;
+}
+
+/* --- PBS Request Form --- */
+
+li#field_13_4 {
+    padding-top: 20px;
+}
+
+select#input_13_4_6 {
+    margin-top: 2px;
+}
+
+input#gform_submit_button_13:hover {
+	background-color: #ffffff !important;
+/*    color: #ffffff !important;*/
+}
+
+/* --- Comprehensive Online Analysis & Team Member Questionnaires --- */
+
+ul#gform_fields_1 > li > label,
+ul#gform_fields_12 > li > label {
+    font-weight: bold;
+}
+
+/* --- PEMP Form --- */
+
+ul#gform_fields_7 > li {
+    padding-right: 0 !important;
+}
+
+/* --- Footer Subscription Form --- */
+
+input#input_14_1 {
+    padding-left: 15px !important;
+}
+
+#gform_14 .gform_footer.top_label {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+input#gform_submit_button_14 {
+    border: none !important;
+}
+
+
+/* -- Popups -- */
+
+/* --- PBS Request Popup --- */
+
+div#popmake-4298 {
+    background-image: url(/wp-content/uploads/2020/05/globe-bg.png);
+    background-size: cover;
+    background-position: top left;
+    padding-top: 40px;
+}
+
+
+/* -- Posts -- */
+
+.single .post-thumbnail img {
+    box-shadow: 1px 1px 6px rgb(0 0 0 / .3);
+}
+
+
+
+/* - Main Content - */
+
+/* -- Home Page -- */
+
+.dental-community div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dental-community .row-1 {
+	margin-bottom: 60px;
+}
+
+/* --- Quotes --- */
+
+.quoteColumn > .vc_column-inner {
+    background-size: initial !important;
+    /* background-position: right bottom !important; */
+    background-position: 95% 90% !important;
+}
+
+
+/* --- Podcast Loop --- */
+
+article.podcast-mini {
+    display: flex;
+}
+
+article.podcast-mini,
+.mini-separator {
+	margin-bottom: 50px;
+}
+
+/* ---- Podcast Date ---- */
+
+table.date-published td {
+    text-align: center;
+	font-family: Changa One;
+}
+
+table.date-published td.pm {
+	font-size: 20px;
+	line-height: 20px
+}
+
+table.date-published td.pd {
+	font-size: 26px;
+	line-height: 26px;
+}
+
+table.date-published td.py {
+	font-size: 14px;
+	line-height: 14px;
+	color: #212a65;
+}
+
+/* ---- Podcast Info ---- */
+
+article.podcast-mini h2.podcast-title {
+	font-size: 24px !important;
+	line-height: 28px !important;
+	margin-bottom: 5px;
+}
+
+article.podcast-mini .podcast-author {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+article.podcast-mini .podcast-author .mdaBanner {
+	font-size: 14px !important;
+	line-height: 16px !important;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+article.podcast-mini .podcast-author .guest-speakers {
+	margin-bottom: 0 !important;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+article.podcast-mini .podcast-summary p {
+    font-size: 16px;
+    line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.podcast-button a {
+    background-color: #212a65;
+	border: 1px solid #212a65;
+    color: #ffffff;
+    text-decoration: none !important;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.podcast-button a:hover {
+	background-color: #ffffff !important;
+	color: #212a65 !important;
+	cursor: pointer;
+}
+
+
+/* --- Podcast Page --- */
+
+#podcast-transcript table.restbl tbody tr td.rx {
+    text-align: left !important;
+}
+
+
+
+/* - Media Queries - */
+
+
+@media (max-width: 800px) {
+	.columnReverse {
+    	flex-direction: column-reverse !important;
+	}
+}
+
+
+
+
+
